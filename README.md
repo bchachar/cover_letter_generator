@@ -44,8 +44,8 @@ Follow these steps to get the project running locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cover-letter-generator.git
-cd cover-letter-generator
+git clone https://github.com/bchachar/cover_letter_generator.git
+cd cover_letter_generator
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
