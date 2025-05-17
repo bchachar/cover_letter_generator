@@ -10,6 +10,7 @@ An intelligent Streamlit application that generates **tailored, professional cov
 * ✅ Upload your CV in `.pdf` or `.txt` format
 * ✅ Click a single button to generate a custom cover letter
 * ✅ Uses **LangChain** + **Ollama** to run models locally (e.g., LLaMA 3, Mistral, etc.)
+* ✅ Uses LangChain + Ollama or OpenAI API for generation
 * ✅ Automatically aligns candidate experience with job requirements
 * ✅ Avoids placeholders like `[Your Name]`; uses actual information from CV and job post
 
@@ -93,6 +94,24 @@ ollama serve
 ```
 
 > Ollama runs on `http://localhost:11434` by default — LangChain will connect automatically.
+
+---
+
+## 🧠 OpenAI ChatGPT API Setup
+### 1. Get Your API Key
+Sign up or log in at https://platform.openai.com/signup
+
+Create an API key from https://platform.openai.com/account/api-keys
+
+### 2. Set Your API Key as an Environment Variable
+```bash
+export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+````
+(Windows PowerShell)
+
+```powershell
+setx OPENAI_API_KEY "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
 
 ---
 
