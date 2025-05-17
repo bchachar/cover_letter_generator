@@ -132,6 +132,7 @@ Open your browser to `http://localhost:8501` and enjoy!
 ```
 cover-letter-generator/
 │
+├── images/                   # Folder containing UI screenshots
 ├── app.py                   # Main Streamlit app
 ├── cover_letter_generator.py # LangChain logic (optional helper module)
 ├── requirements.txt         # Project dependencies
